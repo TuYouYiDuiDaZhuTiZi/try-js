@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- select 测试 -->
+  <!-- <select value="1">
+    <option value="1">苹果</option>
+    <option value="2" selected>香蕉</option>
+    <option value="3">梨子</option>
+  </select> -->
+  <!-- 滚动到底端 测试 -->
+  <!-- <div class="scroll" id="scroll">
+    <ul>
+      <li>hhhh</li>
+      <li>hhhh</li>
+      <li>hhhh</li>
+      <li>hhhh</li>
+      <li>hhhh</li>
+      <li>hhhh</li>
+      <li>hhhh</li>
+      <li>hhhh</li>
+    </ul>
+  </div> -->
+  <iframe id="iframe" src="" style="display:none"></iframe>
+  <button onclick="download()" >下载</button>
+</body>
+<style>
+  /* .scroll {
+    width: 200px;
+    height: 300px;
+    max-height: 100px;
+    background-color: red;
+    overflow-y: scroll;
+  } */
+</style>
+<script>
+  download = () => {
+    const iframe = document.getElementById('iframe');
+    iframe.src = 'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png';
+    // excel 可以下载，图片不可
+    // https://sitecdn.zcycdn.com/f2e-assets/d84c763b-fea6-4226-82c1-44f9fbdd3334.xlsx
+  }
+
+  
+  window.onload = () => {
+    
+    // const scroll = document.getElementById('scroll');
+    // console.log(scroll.scrollTop)
+    // console.log(scroll.scrollHeight)
+    // scroll.scrollTop = scroll.scrollHeight;
+    // console.log(scroll.scrollTop)
+  }
+</script>
+</html>
