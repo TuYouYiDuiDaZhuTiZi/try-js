@@ -25,3 +25,6 @@ const str2 = source.replace(/小毛驴/g, '替换');
 // 垂直制表符
 // console.log('1243\v334545')
 console.log('1243334545')
+
+const masterNewContent = '在 master 第一次开发';
+console.log(masterNewContent);
