@@ -28,3 +28,9 @@ console.log('1243334545')
 
 const masterNewContent = '在 master 第一次开发';
 console.log(masterNewContent);
+
+
+const firstCommit = '第一次提交';
+console.log(firstCommit);
+
+
